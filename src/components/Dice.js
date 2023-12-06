@@ -4,7 +4,11 @@ function Dice(props) {
     }
 
     return (
-        <div className="dice-face" style={isHeldStyle}>
+        <div
+            className="dice-face"
+            style={isHeldStyle}
+            onClick={props.holdDice}
+        >
             <h2 className="dice-number">{props.value}</h2>
         </div>
     )
