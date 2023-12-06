@@ -1,10 +1,22 @@
 import './styles/App.css';
+import Dice from './components/Dice';
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <main className="dice-bg">
+      <div className="dice-container">
+          <Dice value = "1" />
+          <Dice value = "1" />
+          <Dice value = "1" />
+          <Dice value = "1" />
+          <Dice value = "1" />
+          <Dice value = "1" />
+          <Dice value = "1" />
+          <Dice value = "1" />
+          <Dice value = "1" />
+          <Dice value = "1" />
+      </div>
+    </main>
   );
 }
 

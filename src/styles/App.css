@@ -1,0 +1,36 @@
+body {
+    background-color: #0B2434;
+    padding: 25px;
+}
+
+.dice-bg {
+    background-color: #f5f5f5;
+    height: 400px;
+    max-width: 800px;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dice-container {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+}
+
+.dice-face {
+    width: 35.84px;
+    height: 35.84px;
+    border-radius: 3.813px;
+    background: #FFF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dice-number {
+    font-size: 20px;
+}
